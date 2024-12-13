@@ -1,10 +1,12 @@
 import React from 'react'
+import Login from '../pages/Login'
+import Home from '../pages/Home'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 function Navbar() {
   return (
     <>
       <nav className=''>
-        
         <div>
           <h2 className="">BlogOasis</h2>
         </div>
@@ -36,7 +38,6 @@ function Navbar() {
             Signup
           </a>
         </div>
-
       </nav>
     </>
   )
